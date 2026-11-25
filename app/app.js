@@ -402,6 +402,7 @@
       'menu_driver = "rgui"',
       'rgui_browser_directory = "' + ROM_DIR + '"',
       'rgui_show_start_screen = "false"',
+      'menu_swap_ok_cancel_buttons = "false"',
       'video_smooth = "false"',
       'video_font_size = "24.000000"',
       'audio_latency = "128"',
