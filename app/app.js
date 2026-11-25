@@ -80,9 +80,9 @@
       48: cmd("MENU_TOGGLE"),
       427: cmd("SAVE_STATE"),
       428: cmd("LOAD_STATE"),
-      10252: cmd("PAUSE_TOGGLE"),
-      415: cmd("PAUSE_TOGGLE"),
-      19: cmd("PAUSE_TOGGLE")
+      10252: cmd("MENU_TOGGLE"),
+      415: cmd("MENU_TOGGLE"),
+      19: cmd("MENU_TOGGLE")
    };
 
    function sendKey(type, m) {
