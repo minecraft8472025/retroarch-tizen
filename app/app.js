@@ -655,7 +655,7 @@
    /* ---- HTTP folder (directory listing of any static web server) ---- */
 
    function savedNetUrl() {
-      try { return localStorage.getItem("ra_net_url") || ""; } catch (e) { return ""; }
+      try { return localStorage.getItem("ra_net_url") || "http://192.168.4.116:8001"; } catch (e) { return "http://192.168.4.116:8001"; }
    }
 
    $("btn-url-ok").onclick = function () {
